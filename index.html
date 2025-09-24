@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gonçalo Arezes - AI Research Intern & MSc AI Student</title>
+    <meta name="description" content="Dynamic AI engineer with expertise in machine learning, network analysis, and computer vision. Currently pursuing MSc in AI at Maastricht University.">
+    <meta property="og:title" content="Gonçalo Arezes - AI Research Intern & MSc AI Student">
+    <meta property="og:description" content="Dynamic AI engineer with expertise in machine learning, network analysis, and computer vision.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Gonçalo Arezes - AI Research Intern & MSc AI Student">
+    <meta name="twitter:description" content="Dynamic AI engineer with expertise in machine learning, network analysis, and computer vision.">
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧠</text></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav" id="nav">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">GA</a>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link" data-section="home">Home</a>
+                <a href="#about" class="nav-link" data-section="about">About</a>
+                <a href="#work" class="nav-link" data-section="work">Work</a>
+                <a href="#contact" class="nav-link" data-section="contact">Contact</a>
+            </div>
+            <button class="btn btn--outline btn--sm cv-download" id="header-cv-btn">
+                Download CV
+            </button>
+            <div class="nav-indicator" id="nav-indicator"></div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main">
+        <!-- Home Section -->
+        <section class="section section--hero" id="home">
+            <div class="hero-bg">
+                <div class="hero-particles"></div>
+            </div>
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="hero-greeting">Hello, I'm</div>
+                    <h1 class="hero-name">Gonçalo Arezes</h1>
+                    <p class="hero-role">AI Research Intern & MSc AI Student</p>
+                    <p class="hero-description">
+                        Dynamic engineer with expertise in Artificial Intelligence, machine learning, and network analysis. 
+                        Currently advancing AI research at CEiiA while pursuing advanced AI studies.
+                    </p>
+                    <div class="hero-actions">
+                        <button class="btn btn--primary btn--lg magnetic-btn" data-scroll-to="contact">
+                            Get In Touch
+                        </button>
+                        <button class="btn btn--outline btn--lg magnetic-btn cv-download">
+                            Download CV
+                        </button>
+                    </div>
+                    <div class="hero-social">
+                        <a href="mailto:goncaloarezes@gmail.com" class="social-link magnetic-link" target="_blank">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                <polyline points="22,6 12,13 2,6"/>
+                            </svg>
+                        </a>
+                        <div class="hero-location">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+                            Porto, Portugal
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="section" id="about">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">About Me</h2>
+                    <p class="section-subtitle">Background, skills, and education</p>
+                </div>
+                
+                <div class="about-grid">
+                    <div class="about-bio card">
+                        <div class="card__body">
+                            <h3>Background</h3>
+                            <p>Dynamic and results-oriented engineer with a strong foundation in Artificial Intelligence, electrical, and computer engineering. Demonstrated adaptability through international study, showcasing independence and cultural competence.</p>
+                            <p>A proactive problem-solver skilled in Python and a range of development tools, committed to excellence and innovation in fast-paced, collaborative environments.</p>
+                            
+                            <div class="attributes">
+                                <div class="attribute-item">
+                                    <strong>Languages:</strong>
+                                    <div class="language-list">
+                                        <span class="status status--success">Portuguese (Native)</span>
+                                        <span class="status status--info">English (C1 - IELTS Band 7)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skills-container">
+                        <div class="skills-category">
+                            <h4>Programming</h4>
+                            <div class="skills-grid">
+                                <span class="skill-pill">Python (Pandas, NumPy, Scikit-Learn, Matplotlib)</span>
+                                <span class="skill-pill">C/C++</span>
+                                <span class="skill-pill">C#</span>
+                            </div>
+                        </div>
+                        
+                        <div class="skills-category">
+                            <h4>Data & Machine Learning</h4>
+                            <div class="skills-grid">
+                                <span class="skill-pill">Model training</span>
+                                <span class="skill-pill">Data Preprocessing</span>
+                                <span class="skill-pill">Network Analysis</span>
+                                <span class="skill-pill">NLP (Semantic Similarity, Clustering)</span>
+                            </div>
+                        </div>
+                        
+                        <div class="skills-category">
+                            <h4>Tools</h4>
+                            <div class="skills-grid">
+                                <span class="skill-pill">Git</span>
+                                <span class="skill-pill">Jupyter Notebook</span>
+                                <span class="skill-pill">Google Colab</span>
+                                <span class="skill-pill">Anaconda</span>
+                                <span class="skill-pill">Visual Studio Code</span>
+                                <span class="skill-pill">Pip</span>
+                                <span class="skill-pill">Homebrew</span>
+                            </div>
+                        </div>
+                        
+                        <div class="skills-category">
+                            <h4>AI Platforms</h4>
+                            <div class="skills-grid">
+                                <span class="skill-pill">ChatGPT</span>
+                                <span class="skill-pill">Perplexity</span>
+                                <span class="skill-pill">Claude</span>
+                                <span class="skill-pill">DeepSeek</span>
+                                <span class="skill-pill">Manus</span>
+                            </div>
+                        </div>
+                        
+                        <div class="skills-category">
+                            <h4>Software</h4>
+                            <div class="skills-grid">
+                                <span class="skill-pill">Gephi</span>
+                                <span class="skill-pill">Figma</span>
+                                <span class="skill-pill">LT Spice</span>
+                                <span class="skill-pill">Microsoft Office</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="education-section">
+                    <h3>Education</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content card">
+                                <div class="card__body">
+                                    <div class="timeline-period">2024 – Present</div>
+                                    <h4>Master in Artificial Intelligence</h4>
+                                    <p class="timeline-institution">Maastricht University, Netherlands</p>
+                                    <div class="timeline-details">
+                                        <span class="skill-pill">Data Mining</span>
+                                        <span class="skill-pill">Intelligent Search & Games</span>
+                                        <span class="skill-pill">Advanced Concepts in Machine Learning</span>
+                                        <span class="skill-pill">Network Science</span>
+                                        <span class="skill-pill">Agents and Multi-Agent Systems</span>
+                                        <span class="skill-pill">Explainable AI</span>
+                                        <span class="skill-pill">Computer Vision</span>
+                                        <span class="skill-pill">Autonomous Robotic Systems</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content card">
+                                <div class="card__body">
+                                    <div class="timeline-period">2021 – 2024</div>
+                                    <h4>Bachelor's Degree in Electrical and Computer Engineering</h4>
+                                    <p class="timeline-institution">Faculdade de Engenharia da Universidade do Porto (FEUP), Portugal</p>
+                                    <p>Solid foundation in electrical engineering and computer science, with numerous hands-on projects</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Work Section -->
+        <section class="section" id="work">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Experience & Projects</h2>
+                    <p class="section-subtitle">Professional experience and research projects</p>
+                </div>
+                
+                <div class="work-section">
+                    <h3>Experience</h3>
+                    <div class="experience-grid">
+                        <div class="experience-item card">
+                            <div class="card__body">
+                                <div class="experience-header">
+                                    <div>
+                                        <h4>AI Research Intern</h4>
+                                        <p class="experience-company">CEiiA (Centre of Engineering and Product Development)</p>
+                                        <p class="experience-location">Porto, Portugal</p>
+                                    </div>
+                                    <span class="experience-period status status--success">Sep 2025 – Present</span>
+                                </div>
+                                <ul class="experience-responsibilities">
+                                    <li>Developing AI-driven pipelines for Earth Observation (EO) data, focusing on annotation efficiency and modeling of Very High Resolution (VHR) satellite imagery</li>
+                                    <li>Enhancing annotation workflows through pre-annotation, active learning, and semi-automated segmentation strategies</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="experience-item card">
+                            <div class="card__body">
+                                <div class="experience-header">
+                                    <div>
+                                        <h4>Internship</h4>
+                                        <p class="experience-company">iServices Lab</p>
+                                        <p class="experience-location">Porto, Portugal</p>
+                                    </div>
+                                    <span class="experience-period status status--info">Feb 2024 – Jul 2024</span>
+                                </div>
+                                <ul class="experience-responsibilities">
+                                    <li>Optimized electrotechnical systems, improving diagnostic efficiency of repair workflows</li>
+                                    <li>Repaired and tested diverse hardware/software components, reducing downtime for client devices</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="experience-item card">
+                            <div class="card__body">
+                                <div class="experience-header">
+                                    <div>
+                                        <h4>Science and Technology Challenge</h4>
+                                        <p class="experience-company">BEST Porto</p>
+                                        <p class="experience-location">Porto, Portugal</p>
+                                    </div>
+                                    <span class="experience-period status status--warning">Oct 2023</span>
+                                </div>
+                                <ul class="experience-responsibilities">
+                                    <li><strong>Hackathon:</strong> Secured 2nd place out of 16 teams by solving challenges in steganography and reverse engineering</li>
+                                    <li><strong>Team Design:</strong> Designed and prototyped a gum machine that recognized coin types and gum selection, earning 2nd place</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="work-section">
+                    <h3>Projects</h3>
+                    <div class="projects-grid">
+                        <div class="project-card card">
+                            <div class="card__body">
+                                <div class="project-header">
+                                    <h4>Neuro-Symbolic Toolkit for Clinical Data Management</h4>
+                                    <span class="project-period status status--success">Sep 2024 – Jan 2025</span>
+                                </div>
+                                <p class="project-supervisors"><strong>Supervisors:</strong> Shervin Mehryar and Dr. Remzi Celebi</p>
+                                <ul class="project-description">
+                                    <li>Developed a data integration pipeline using Python, merging unstructured and structured clinical data via ontology alignment and entity linking</li>
+                                    <li>Applied NLP techniques (e.g., BERT embeddings) to resolve heterogeneous medical records, improving entity linking accuracy</li>
+                                    <li>Ensured data was FAIR-compliant by integrating semantic metadata into the final dataset</li>
+                                </ul>
+                                <div class="project-tech">
+                                    <span class="skill-pill">Python</span>
+                                    <span class="skill-pill">BERT</span>
+                                    <span class="skill-pill">NLP</span>
+                                    <span class="skill-pill">Ontology Alignment</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="project-card card">
+                            <div class="card__body">
+                                <div class="project-header">
+                                    <h4>Cross-Platform Content Analysis for Dutch Influencer Categorization</h4>
+                                    <span class="project-period status status--info">Dec 2024</span>
+                                </div>
+                                <p class="project-type"><strong>Final Group Project - Network Science (MSc AI)</strong></p>
+                                <ul class="project-description">
+                                    <li>Built content interaction networks using NetworkX, modeling influencer relations across Instagram and TikTok</li>
+                                    <li>Applied NLP clustering techniques using SentenceTransformers, combined with graph embeddings for content-based similarity scoring</li>
+                                    <li>Detected influencer communities using Consensus Louvain, optimizing community detection for dynamic social networks</li>
+                                    <li><em>Currently under discussion for potential publication at a Network Science conference</em></li>
+                                </ul>
+                                <div class="project-tech">
+                                    <span class="skill-pill">Python</span>
+                                    <span class="skill-pill">NetworkX</span>
+                                    <span class="skill-pill">Gephi</span>
+                                    <span class="skill-pill">SentenceTransformers</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section" id="contact">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Get In Touch</h2>
+                    <p class="section-subtitle">Let's discuss opportunities and collaborations</p>
+                </div>
+                
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                    <polyline points="22,6 12,13 2,6"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:goncaloarezes@gmail.com" class="magnetic-link">goncaloarezes@gmail.com</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>Phone</h4>
+                                <a href="tel:+351919875023" class="magnetic-link">+351 919 875 023</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                    <circle cx="12" cy="10" r="3"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Porto, Portugal</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form-container card">
+                        <div class="card__body">
+                            <form class="contact-form" id="contact-form">
+                                <div class="form-group">
+                                    <label for="name" class="form-label">Name</label>
+                                    <input type="text" id="name" name="name" class="form-control" required>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="email" class="form-label">Email</label>
+                                    <input type="email" id="email" name="email" class="form-control" required>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="message" class="form-label">Message</label>
+                                    <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
+                                </div>
+                                
+                                <!-- Honeypot field -->
+                                <input type="text" name="website" style="display: none;" tabindex="-1" autocomplete="off">
+                                
+                                <button type="submit" class="btn btn--primary btn--full-width magnetic-btn" id="submit-btn">
+                                    <span class="btn-text">Send Message</span>
+                                    <span class="btn-loading" style="display: none;">
+                                        <svg class="spinner" width="20" height="20" viewBox="0 0 24 24">
+                                            <circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="4" opacity="0.25"/>
+                                            <path fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z" opacity="0.75"/>
+                                        </svg>
+                                        Sending...
+                                    </span>
+                                </button>
+                            </form>
+                            
+                            <div class="form-message" id="form-message" style="display: none;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <p>&copy; 2025 Gonçalo Arezes. All rights reserved.</p>
+                </div>
+                <div class="footer-right">
+                    <a href="mailto:goncaloarezes@gmail.com" class="footer-link magnetic-link">Email</a>
+                    <button class="footer-link cv-download">Download CV</button>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
